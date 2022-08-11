@@ -36,14 +36,14 @@ img {
 .row {
   align-items: center;
   padding: 50px;
-  border: 1px solid #165565;
   margin: 10px 15px;
-  border-radius: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+  border-radius: 0px;
+  box-shadow: none;
 }
-.col-sm-8,
-.col-md-6,
-.col-sm-4 {
+/* .col-sm-8,
+.col-sm-6*/
+.col-md-6 {
   padding: 30px;
 }
 
@@ -51,4 +51,11 @@ p {
   text-align: justify;
   line-header: 28px;
   letter-spacing: 0.6px;
+}
+@media (max-width: 576px) {
+  .row {
+    border: 1px solid #165565;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
 }
