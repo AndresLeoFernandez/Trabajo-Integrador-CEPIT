@@ -20,8 +20,9 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light">
+        
           <button
             class="navbar-toggler"
             type="button"
@@ -36,31 +37,38 @@
           <div class="collapse navbar-collapse mt-1" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
-                  >Compras</a
+                <a class="nav-link" href="/compras.html" tabindex="-1" aria-disabled="true"
+                title="Accede al Carrito de Compras">Compras</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Nosotros</a>
+                <a class="nav-link" href="#" title="No disponible">Nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contactos</a>
+                <a class="nav-link" href="#" title="No disponible">Contactos</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
       <div id="banner" class="text-center">
-        <h1>Trabajo Integrador</h1>
+        <h1 class="display-1">Trabajo Integrador</h1>
       </div>
     </header>
-
+    <div id="breadcrumb">
+      <nav aria-label="breadcrumb" class="container">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page">Inicio</li>
+        </ol>
+      </nav>
+    </div>
     <main class="container">
-      <h2>Herramientas utilizadas en la gestion</h2>
+      
+      <h2>Herramientas utilizadas en la gestion del Trabajo</h2>
       <div class="row">
         <div class="col-md-6">
           <h5>HTML 5</h5>
-          <p>
+          <p class="lead">
             (HyperText Markup Language, versión 5) es la quinta revisión
             importante del lenguaje básico de la World Wide Web, HTML. HTML5
             específica dos variantes de sintaxis para HTML: una «clásica», HTML
@@ -84,8 +92,8 @@
           />
         </div>
         <div class="col-md-6">
-          <h5>Bootstrap v5.2</h5>
-          <p>
+          <h5>Bootstrap v5.0</h5>
+          <p class="lead">
             Biblioteca multiplataforma o conjunto de herramientas de código
             abierto para diseño de sitios y aplicaciones web. Contiene
             plantillas de diseño con tipografía, formularios, botones, cuadros,
@@ -98,7 +106,7 @@
       <div class="row">
         <div class="col-md-6">
           <h5>TypeScript</h5>
-          <p>
+          <p class="lead">
             Lenguaje de programación libre y de código abierto desarrollado y
             mantenido por Microsoft. Es un superconjunto de JavaScript, que
             esencialmente añade tipos estáticos y objetos basados en
@@ -119,7 +127,7 @@
         </div>
         <div class="col-md-6">
           <h5>Github</h5>
-          <p>
+          <p class="lead">
             Es una plataforma de desarrollo colaborativo para alojar proyectos
             utilizando el sistema de control de versiones Git. Se utiliza
             principalmente para la creación de código fuente de programas de
@@ -133,8 +141,9 @@
       </div>
     </main>
     <footer>
-      <div class="container">
-        <div id="pie-pagina">2022 -</div>
+      <div id="pie-pagina">
+          Realizado por <b>Andrés Fernández</b></br>
+          <b>Curso CEPIT - 2022</b>
       </div>
     </footer>
     <script
@@ -142,7 +151,5 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-
-    <!-- <script src="src/index.ts"></script> -->
   </body>
 </html>

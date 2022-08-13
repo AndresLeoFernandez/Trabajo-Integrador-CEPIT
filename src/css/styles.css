@@ -4,30 +4,46 @@ body {
 header {
   background-color: lightblue;
 }
-h1,
-h2,
-h3 {
-  padding: 15px 20px;
+#navbarNav {
+  flex-direction: row-reverse;
+}
+.breadcrumb {
+  margin-bottom: 0rem;
+  padding: 10px;
 }
 #banner {
-  height: 150px;
-  padding: 50px 5px;
-  background-color: red;
-  text-transform: uppercase;
-  font-weight: 800;
-  letter-spacing: 0.5;
+  background-color: #007894;
+  padding: 25px 0;
 }
+#breadcrumb {
+  background-color: #000;
+  color: #fff;
+  height: auto;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+h2,
+h3 {
+  padding: 25px 95px;
+  text-align: center;
+}
+
 h5 {
   display: inline-block;
   font-weight: 600;
 }
 footer {
-  background-color: lightblue;
+  background-color: #007894;
 }
 #pie-pagina {
   margin: auto;
   padding: 20px;
   text-align: center;
+  font-size: 85%;
 }
 img {
   width: 200px;
@@ -35,21 +51,18 @@ img {
 }
 .row {
   align-items: center;
-  padding: 50px;
+  padding: 25 50px;
   margin: 10px 15px;
   border: none;
   border-radius: 0px;
   box-shadow: none;
 }
-/* .col-sm-8,
-.col-sm-6*/
 .col-md-6 {
   padding: 30px;
 }
 
 p {
   text-align: justify;
-  line-header: 28px;
   letter-spacing: 0.6px;
 }
 @media (max-width: 576px) {
