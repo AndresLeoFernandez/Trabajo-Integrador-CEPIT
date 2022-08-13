@@ -15,22 +15,6 @@ header {
   background-color: #007894;
   padding: 25px 0;
 }
-#breadcrumb {
-  background-color: #000;
-  color: #fff;
-  height: auto;
-}
-
-h1 {
-  text-transform: uppercase;
-  margin-bottom: 0;
-}
-
-h2,
-h3 {
-  padding: 25px 95px;
-  text-align: center;
-}
 
 h5 {
   display: inline-block;
@@ -40,9 +24,6 @@ footer {
   background-color: #007894;
 }
 #pie-pagina {
-  margin: auto;
-  padding: 20px;
-  text-align: center;
   font-size: 85%;
 }
 img {
@@ -51,14 +32,9 @@ img {
 }
 .row {
   align-items: center;
-  padding: 25 50px;
-  margin: 10px 15px;
   border: none;
   border-radius: 0px;
   box-shadow: none;
-}
-.col-md-6 {
-  padding: 30px;
 }
 
 p {
